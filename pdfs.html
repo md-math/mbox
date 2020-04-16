@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFs</title>
+    <link rel="Stylesheet" href="estilo.css">  
+    <link rel="Stylesheet" href="pdfs.css"> 
+</head>
+<script language="javascript" src="funcoes.js"></script>
+<body>
+<div id="interface">
+
+<header id="cabecalho">
+        <hgroup>
+        <h1>Variados arquivos de Matemática num só lugar</h1>
+        <h2>Um repositório de arquivos e aplicativos matemáticos</h2>
+        </hgroup>
+    
+        <img id="icone" src="icone-organograma.png"> <!--src: Source ou Origem-->
+    
+    <nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul type="disc">
+        <li onmouseover="mudaFoto('icone-home.png')" onmouseout="mudaFoto('icone-documentos.png')"><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('icone-documentos.png')" onmouseout="mudaFoto('icone-documentos.png')"><a href="pdfs.html">PDFs</a></li>
+        <li onmouseover="mudaFoto('icone-graficos.png')" onmouseout="mudaFoto('icone-documentos.png')"><a href="geogebra.html">GeoGebra</a></li>
+        <li onmouseover="mudaFoto('icone-calculadora.png')" onmouseout="mudaFoto('icone-documentos.png')"><a href="maxima.html">MAXIMA</a></li>
+        <li onmouseover="mudaFoto('icone-quadro.png')" onmouseout="mudaFoto('icone-documentos.png')"><a href="videos.html">Vídeos</a></li>
+    </ul>
+    </nav>
+    
+    </header>
+    
+<section id="corpo-full">
+    
+    <article id="noticia-principal">
+    <header id="cabecalho-artigo">
+    <hgroup>
+    <h3>Acervo > Arquivos PDF</h3>
+    <h1>Faça download de diversos arquivos de matemática</h1>
+    <h3 class="direita">Atualizado em 15/Abril/2020</h3>
+    </hgroup>
+</header>
+    
+   <p> Clique nas regiões de ensino do esquema abaixo para ter acesso aos arquivos.</p>
+    
+    <section id="conteudo">
+        <img id="esquema" src="esquema-anos-ensino.png" usemap="#meumapa">
+        <map name="meumapa">
+            <area shape="poly" coords="270,0,340,0,340,34,270,34" href="arquivos-pdf.html#1ano" target="janela">
+            <area shape="poly" coords="270,57,340,57,340,91,270,91" href="arquivos-pdf.html#2ano" target="janela">
+            <area shape="poly" coords="270,115,340,115,340,148,270,148" href="arquivos-pdf.html#3ano" target="janela">
+        </map>
+        <iframe src="arquivos-pdf.html" name="janela" id="frame-pdfs"></iframe>
+    </section>
+    </article>
+</section>
+
+<footer id="rodape">
+    <p>Copyright 2020 - by Prof. Manoel Dione<br/>
+    <a href="https://pt-br.facebook.com/manoel.johnny" target="blanck">Facebook</a> | 
+    <a href="https://twitter.com/Manoel51085293?s=03" target="blanck">Twitter</a>
+    </p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+    float: left;
+}
+
+img#esquema {
+    float: left;
+    margin-top: 0px;
+}
+
+iframe#frame-pdfs {
+    width: 480px;
+    height: 500px;
+    border: none;
+    overflow: hidden; /* Para evitar que a rolagem aconteça */
+}
+
+iframe#frame-pdfs::-webkit-scrollbar {
+    display: none;
+}
