@@ -98,7 +98,7 @@ nav#menu {
     text-transform: uppercase;
     position: absolute; /*Posição dentro de todo o site*/
     top: -20px;
-    left: 650px;
+    left: auto;
 }
 
 nav#menu ul{
